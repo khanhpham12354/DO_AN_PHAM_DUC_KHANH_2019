@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+".\objects\stm32l1xx_rcc.o"
+".\objects\stm32l1xx_gpio.o"
+".\objects\stm32l1xx_usart.o"
+".\objects\misc.o"
+".\objects\stm32l1xx_syscfg.o"
+".\objects\stm32l1xx_rtc.o"
+".\objects\stm32l1xx_pwr.o"
+".\objects\stm32l1xx_exti.o"
+".\objects\stm32l1xx_adc.o"
+".\objects\delay.o"
+".\objects\lora.o"
+".\objects\main.o"
+".\objects\usart.o"
+".\objects\init.o"
+".\objects\soil_moisture.o"
+".\objects\sht75.o"
+".\objects\pwr.o"
+".\objects\stm32_rtc.o"
+".\objects\kalman.o"
+".\objects\ph.o"
+".\objects\startup_stm32l152xb.o"
+".\objects\system_stm32l1xx.o"
+--strict --scatter ".\Objects\Rhf76052.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Rhf76052.map" -o .\Objects\Rhf76052.axf

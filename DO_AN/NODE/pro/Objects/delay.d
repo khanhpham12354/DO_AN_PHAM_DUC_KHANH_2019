@@ -1,0 +1,10 @@
+.\objects\delay.o: ..\src\delay.c
+.\objects\delay.o: ..\inc\user_lib\delay.h
+.\objects\delay.o: ..\inc\LIB\CMSIS\Device\ST\STM32L1xx\Include\stm32l1xx.h
+.\objects\delay.o: ..\inc\LIB\CMSIS\Device\ST\STM32L1xx\Include\stm32l1xx_conf.h
+.\objects\delay.o: ..\inc\LIB\CMSIS\Include\core_cm3.h
+.\objects\delay.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\delay.o: ..\inc\LIB\CMSIS\Include\core_cmInstr.h
+.\objects\delay.o: ..\inc\LIB\CMSIS\Include\core_cmFunc.h
+.\objects\delay.o: ..\inc\LIB\CMSIS\Device\ST\STM32L1xx\Include\system_stm32l1xx.h
+.\objects\delay.o: ..\inc\LIB\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_rcc.h

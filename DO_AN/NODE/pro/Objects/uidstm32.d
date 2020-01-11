@@ -1,0 +1,12 @@
+.\objects\uidstm32.o: ..\src\uidstm32.c
+.\objects\uidstm32.o: ..\inc\user_lib\uidstm32.h
+.\objects\uidstm32.o: ..\inc\LIB\CMSIS\Device\ST\STM32L1xx\Include\stm32l1xx.h
+.\objects\uidstm32.o: ..\inc\LIB\CMSIS\Device\ST\STM32L1xx\Include\stm32l1xx_conf.h
+.\objects\uidstm32.o: ..\inc\LIB\CMSIS\Include\core_cm3.h
+.\objects\uidstm32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\uidstm32.o: ..\inc\LIB\CMSIS\Include\core_cmInstr.h
+.\objects\uidstm32.o: ..\inc\LIB\CMSIS\Include\core_cmFunc.h
+.\objects\uidstm32.o: ..\inc\LIB\CMSIS\Device\ST\STM32L1xx\Include\system_stm32l1xx.h
+.\objects\uidstm32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\uidstm32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\uidstm32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

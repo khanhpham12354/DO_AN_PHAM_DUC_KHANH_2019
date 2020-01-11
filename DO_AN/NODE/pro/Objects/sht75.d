@@ -1,0 +1,14 @@
+.\objects\sht75.o: ..\src\sht75.c
+.\objects\sht75.o: ..\inc\user_lib\sht75.h
+.\objects\sht75.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\sht75.o: ..\inc\LIB\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_gpio.h
+.\objects\sht75.o: ..\inc\LIB\CMSIS\Device\ST\STM32L1xx\Include\stm32l1xx.h
+.\objects\sht75.o: ..\inc\LIB\CMSIS\Device\ST\STM32L1xx\Include\stm32l1xx_conf.h
+.\objects\sht75.o: ..\inc\LIB\CMSIS\Include\core_cm3.h
+.\objects\sht75.o: ..\inc\LIB\CMSIS\Include\core_cmInstr.h
+.\objects\sht75.o: ..\inc\LIB\CMSIS\Include\core_cmFunc.h
+.\objects\sht75.o: ..\inc\LIB\CMSIS\Device\ST\STM32L1xx\Include\system_stm32l1xx.h
+.\objects\sht75.o: ..\inc\LIB\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_rcc.h
+.\objects\sht75.o: ..\inc\user_lib\delay.h
+.\objects\sht75.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\sht75.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h

@@ -1,0 +1,78 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Khanh Pham, Tinasoft, LIC=KRMFW-QKG73-BQ20K-ZKN8E-2EWBC-4CHJ5
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.17
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.17
+Dialog DLL:      DCM.DLL V1.13.4.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+E:\New folder\Workplace\Workplace\STM32L1_KeliCv5\New folder\pro\Rhf76052.uvprojx
+Project File Date:  07/18/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'stm32l152c6'
+compiling stm32l1xx_gpio.c...
+compiling stm32l1xx_usart.c...
+compiling stm32l1xx_rcc.c...
+compiling delay.c...
+compiling init.c...
+compiling lora.c...
+compiling uidstm32.c...
+..\src\uidstm32.c(50): warning:  #177-D: variable "idPart3" was declared but never referenced
+  	uint32_t idPart3 = STM32_UID[2];
+..\src\uidstm32.c: 1 warning, 0 errors
+compiling usart.c...
+compiling main.c...
+assembling startup_stm32l152xb.s...
+compiling system_stm32l1xx.c...
+linking...
+Program Size: Code=4148 RO-data=276 RW-data=84 ZI-data=2420  
+"..\output\Rhf76052.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32L1xx_DFP.1.2.0.pack
+                Keil::Device:Startup:2.0.0
+                STMicroelectronics STM32L1 Series Device Support and Examples
+   * Component: Startup Version: 2.0.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\New folder\Workplace\Workplace\STM32L1_KeliCv5\New folder\pro\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32L1xx_DFP\1.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+
+   * Component: Keil::Device:Startup:2.0.0
+      Source file:   Device\Source\ARM\STM32L1xx_MD_OPT.s
+      Source file:   Device\Source\system_stm32l1xx.c
+      Source file:   Device\Source\ARM\startup_stm32l152xb.s
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.\objects\lora.o: ..\src\lora.c
+.\objects\lora.o: ..\inc\user_lib\lora.h
+.\objects\lora.o: ..\inc\LIB\CMSIS\Device\ST\STM32L1xx\Include\stm32l1xx.h
+.\objects\lora.o: ..\inc\LIB\CMSIS\Device\ST\STM32L1xx\Include\stm32l1xx_conf.h
+.\objects\lora.o: ..\inc\LIB\CMSIS\Include\core_cm3.h
+.\objects\lora.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lora.o: ..\inc\LIB\CMSIS\Include\core_cmInstr.h
+.\objects\lora.o: ..\inc\LIB\CMSIS\Include\core_cmFunc.h
+.\objects\lora.o: ..\inc\LIB\CMSIS\Device\ST\STM32L1xx\Include\system_stm32l1xx.h
+.\objects\lora.o: ..\inc\user_lib\usart.h
+.\objects\lora.o: ..\inc\LIB\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_usart.h
+.\objects\lora.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\lora.o: ..\inc\user_lib\delay.h
+.\objects\lora.o: ..\inc\LIB\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_rcc.h
+.\objects\lora.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

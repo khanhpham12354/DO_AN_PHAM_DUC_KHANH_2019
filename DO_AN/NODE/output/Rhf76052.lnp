@@ -1,0 +1,16 @@
+--cpu Cortex-M3
+"..\output\stm32l1xx_rcc.o"
+"..\output\stm32l1xx_gpio.o"
+"..\output\stm32l1xx_usart.o"
+"..\output\delay.o"
+"..\output\init.o"
+"..\output\lora.o"
+"..\output\main.o"
+"..\output\uidstm32.o"
+"..\output\usart.o"
+"..\output\startup_stm32l152xb.o"
+"..\output\system_stm32l1xx.o"
+--strict --scatter "..\output\Rhf76052.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Rhf76052.map" -o ..\output\Rhf76052.axf

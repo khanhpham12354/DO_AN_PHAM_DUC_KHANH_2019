@@ -1,0 +1,11 @@
+..\output\usart.o: ..\src\usart.c
+..\output\usart.o: ..\inc\user_lib\usart.h
+..\output\usart.o: ..\inc\LIB\CMSIS\Device\ST\STM32L1xx\Include\stm32l1xx.h
+..\output\usart.o: ..\inc\LIB\CMSIS\Device\ST\STM32L1xx\Include\stm32l1xx_conf.h
+..\output\usart.o: ..\inc\LIB\CMSIS\Include\core_cm3.h
+..\output\usart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\usart.o: ..\inc\LIB\CMSIS\Include\core_cmInstr.h
+..\output\usart.o: ..\inc\LIB\CMSIS\Include\core_cmFunc.h
+..\output\usart.o: ..\inc\LIB\CMSIS\Device\ST\STM32L1xx\Include\system_stm32l1xx.h
+..\output\usart.o: ..\inc\LIB\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_usart.h
+..\output\usart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
